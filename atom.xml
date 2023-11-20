@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Acaibird Devil</title>
+  
+  <subtitle>残月忧郁 星夜静谧 潮落叹息</subtitle>
+  <link href="https://a-caibird.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://a-caibird.github.io/"/>
+  <updated>2023-11-19T13:35:30.154Z</updated>
+  <id>https://a-caibird.github.io/</id>
+  
+  <author>
+    <name>Acaibird</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c++代码模板</title>
+    <link href="https://a-caibird.github.io/2023/11/20/cpp-dai-ma-mo-ban/"/>
+    <id>https://a-caibird.github.io/2023/11/20/cpp-dai-ma-mo-ban/</id>
+    <published>2023-11-20T04:32:24.000Z</published>
+    <updated>2023-11-19T13:35:30.154Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-cpp&quot; data-language=&quot;cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    <category term="c++" scheme="https://a-caibird.github.io/categories/c/"/>
+    
+    <category term="OJ" scheme="https://a-caibird.github.io/categories/c/OJ/"/>
+    
+    
+    <category term="c++" scheme="https://a-caibird.github.io/tags/c/"/>
+    
+    <category term="OJ" scheme="https://a-caibird.github.io/tags/OJ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git命令大全</title>
+    <link href="https://a-caibird.github.io/2023/11/20/git-ming-ling-da-quan/"/>
+    <id>https://a-caibird.github.io/2023/11/20/git-ming-ling-da-quan/</id>
+    <published>2023-11-20T03:57:16.000Z</published>
+    <updated>2023-11-19T13:26:53.017Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Git指南&quot;&gt;&lt;a href=&quot;#Git指南&quot; class=&quot;headerlink&quot; title=&quot;Git指南&quot;&gt;&lt;/a&gt;Git指南&lt;/h1&gt;&lt;h2 id=&quot;git-checkout-切换分支&quot;&gt;&lt;a href=&quot;#git-checkout-切换分支&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="https://a-caibird.github.io/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="https://a-caibird.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql 储存过程</title>
+    <link href="https://a-caibird.github.io/2023/11/20/mysql-chu-cun-guo-cheng/"/>
+    <id>https://a-caibird.github.io/2023/11/20/mysql-chu-cun-guo-cheng/</id>
+    <published>2023-11-20T03:55:02.000Z</published>
+    <updated>2023-11-19T12:56:03.011Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;mysql储存过程&quot;&gt;&lt;a href=&quot;#mysql储存过程&quot; class=&quot;headerlink&quot; title=&quot;mysql储存过程&quot;&gt;&lt;/a&gt;mysql储存过程&lt;/h1&gt;&lt;h2 id=&quot;成绩-学生信息表定义&quot;&gt;&lt;a href=&quot;#成绩-学生信息表定义&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="mysql" scheme="https://a-caibird.github.io/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://a-caibird.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>正则表达式断言</title>
+    <link href="https://a-caibird.github.io/2023/11/20/zheng-ze-biao-da-shi-duan-yan/"/>
+    <id>https://a-caibird.github.io/2023/11/20/zheng-ze-biao-da-shi-duan-yan/</id>
+    <published>2023-11-20T03:48:44.000Z</published>
+    <updated>2023-11-19T12:50:32.512Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;断言&quot;&gt;&lt;a href=&quot;#断言&quot; class=&quot;headerlink&quot; title=&quot;断言&quot;&gt;&lt;/a&gt;断言&lt;/h1&gt;&lt;p&gt;(练习网站)[&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="正则表达式" scheme="https://a-caibird.github.io/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+    <category term="Regex" scheme="https://a-caibird.github.io/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/Regex/"/>
+    
+    
+    <category term="Regex" scheme="https://a-caibird.github.io/tags/Regex/"/>
+    
+    <category term="正则表达式" scheme="https://a-caibird.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动态拼接本地图片路径</title>
+    <link href="https://a-caibird.github.io/2023/11/20/dong-tai-pin-jie-ben-di-tu-pian-lu-jing/"/>
+    <id>https://a-caibird.github.io/2023/11/20/dong-tai-pin-jie-ben-di-tu-pian-lu-jing/</id>
+    <published>2023-11-20T03:45:29.000Z</published>
+    <updated>2023-11-19T12:47:44.030Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;vue图片路径动态拼接报错&quot;&gt;&lt;a href=&quot;#vue图片路径动态拼接报错&quot; class=&quot;headerlink&quot; title=&quot;vue图片路径动态拼接报错&quot;&gt;&lt;/a&gt;vue图片路径动态拼接报错&lt;/h1&gt;&lt;h2 id=&quot;失败加载的原因&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>组件之间数据传递</title>
+    <link href="https://a-caibird.github.io/2023/11/20/zu-jian-zhi-jian-shu-ju-chuan-di/"/>
+    <id>https://a-caibird.github.io/2023/11/20/zu-jian-zhi-jian-shu-ju-chuan-di/</id>
+    <published>2023-11-20T03:41:29.000Z</published>
+    <updated>2023-11-19T12:43:19.084Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;组件之间的数据传递&quot;&gt;&lt;a href=&quot;#组件之间的数据传递&quot; class=&quot;headerlink&quot; title=&quot;组件之间的数据传递&quot;&gt;&lt;/a&gt;组件之间的数据传递&lt;/h2&gt;&lt;h3 id=&quot;父组件向子组件传递值v-bind-单向数据传递&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚拟 dom 延时加载</title>
+    <link href="https://a-caibird.github.io/2023/11/20/xu-ni-dom-yan-shi-jia-zai/"/>
+    <id>https://a-caibird.github.io/2023/11/20/xu-ni-dom-yan-shi-jia-zai/</id>
+    <published>2023-11-20T03:37:39.000Z</published>
+    <updated>2023-11-19T12:39:39.270Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解决虚拟DOM未更新【异步】对于问题&quot;&gt;&lt;a href=&quot;#解决虚拟DOM未更新【异步】对于问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue 函数获取原生 dom</title>
+    <link href="https://a-caibird.github.io/2023/11/20/vue-han-shu-huo-qu-yuan-sheng-dom/"/>
+    <id>https://a-caibird.github.io/2023/11/20/vue-han-shu-huo-qu-yuan-sheng-dom/</id>
+    <published>2023-11-20T03:34:50.000Z</published>
+    <updated>2023-11-19T12:35:42.650Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-typescript&quot; data-language=&quot;typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue路由</title>
+    <link href="https://a-caibird.github.io/2023/11/20/vue-lu-you/"/>
+    <id>https://a-caibird.github.io/2023/11/20/vue-lu-you/</id>
+    <published>2023-11-20T03:31:06.000Z</published>
+    <updated>2023-11-19T12:33:38.218Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;vue中的路由&quot;&gt;&lt;a href=&quot;#vue中的路由&quot; class=&quot;headerlink&quot; title=&quot;vue中的路由&quot;&gt;&lt;/a&gt;&lt;code&gt;vue&lt;/code&gt;中的路由&lt;/h2&gt;&lt;h3 id=&quot;实现原理&quot;&gt;&lt;a href=&quot;#实现原理&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
+    
+    <category term="vue-router" scheme="https://a-caibird.github.io/tags/vue-router/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pm2后台运行 node,js 项目</title>
+    <link href="https://a-caibird.github.io/2023/11/20/pm2-hou-tai-yun-xing-node-js-xiang-mu/"/>
+    <id>https://a-caibird.github.io/2023/11/20/pm2-hou-tai-yun-xing-node-js-xiang-mu/</id>
+    <published>2023-11-20T03:26:50.000Z</published>
+    <updated>2023-11-19T12:28:45.008Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在 CentOS 终端中启动 Node.js 项目时，如果你关闭终端，该项目也会停止运行，这是因为终端关闭会导致该进程的终止。为了解决这个问题，你可以使用一些方法来让项目在后台持续运行，即使终端关闭。以下是几种可行的方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;使用 nohup</summary>
+        
+      
+    
+    
+    
+    <category term="node.js" scheme="https://a-caibird.github.io/categories/node-js/"/>
+    
+    
+    <category term="pm2" scheme="https://a-caibird.github.io/tags/pm2/"/>
+    
+    <category term="node.js" scheme="https://a-caibird.github.io/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>破解软件列表</title>
+    <link href="https://a-caibird.github.io/2023/11/20/po-jie-ruan-jian-lie-biao/"/>
+    <id>https://a-caibird.github.io/2023/11/20/po-jie-ruan-jian-lie-biao/</id>
+    <published>2023-11-20T03:19:56.000Z</published>
+    <updated>2023-11-19T12:20:21.776Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;资源列表&quot;&gt;&lt;a href=&quot;#资源列表&quot; class=&quot;headerlink&quot; title=&quot;资源列表&quot;&gt;&lt;/a&gt;资源列表&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="破解软件" scheme="https://a-caibird.github.io/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uniapp一键登</title>
+    <link href="https://a-caibird.github.io/2023/11/20/uniapp-yi-jian-deng/"/>
+    <id>https://a-caibird.github.io/2023/11/20/uniapp-yi-jian-deng/</id>
+    <published>2023-11-20T03:16:39.000Z</published>
+    <updated>2023-11-19T12:17:04.168Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;uniapp一键登录&quot;&gt;&lt;a href=&quot;#uniapp一键登录&quot; class=&quot;headerlink&quot; title=&quot;uniapp一键登录&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="uniapp" scheme="https://a-caibird.github.io/categories/uniapp/"/>
+    
+    
+    <category term="uniapp" scheme="https://a-caibird.github.io/tags/uniapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos安装 nginx</title>
+    <link href="https://a-caibird.github.io/2023/11/20/centos-an-zhuang-nginx/"/>
+    <id>https://a-caibird.github.io/2023/11/20/centos-an-zhuang-nginx/</id>
+    <published>2023-11-20T03:12:43.000Z</published>
+    <updated>2023-11-19T12:15:00.422Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://support.huaweicloud.com/usermanual-ccm/ccm_01_0082.html&quot;&gt;配置&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安装 &lt;code&gt;yum install</summary>
+        
+      
+    
+    
+    
+    <category term="nginx" scheme="https://a-caibird.github.io/categories/nginx/"/>
+    
+    <category term="centos" scheme="https://a-caibird.github.io/categories/nginx/centos/"/>
+    
+    
+    <category term="centos" scheme="https://a-caibird.github.io/tags/centos/"/>
+    
+    <category term="nginx" scheme="https://a-caibird.github.io/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hightlight.js 高亮代码</title>
+    <link href="https://a-caibird.github.io/2023/11/20/hightlight-js-gao-liang-dai-ma/"/>
+    <id>https://a-caibird.github.io/2023/11/20/hightlight-js-gao-liang-dai-ma/</id>
+    <published>2023-11-20T03:09:43.000Z</published>
+    <updated>2023-11-19T12:10:18.341Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-markup&quot; data-language=&quot;markup&quot;&gt;&lt;code class=&quot;language-markup&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hightlight.js" scheme="https://a-caibird.github.io/tags/hightlight-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://a-caibird.github.io/2023/11/19/hello-world/"/>
+    <id>https://a-caibird.github.io/2023/11/19/hello-world/</id>
+    <published>2023-11-19T12:03:31.446Z</published>
+    <updated>2023-11-19T12:03:31.447Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="init blog" scheme="https://a-caibird.github.io/tags/init-blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring处理跨域请求</title>
+    <link href="https://a-caibird.github.io/2023/11/19/spring-chu-li-kua-yu-qing-qiu/"/>
+    <id>https://a-caibird.github.io/2023/11/19/spring-chu-li-kua-yu-qing-qiu/</id>
+    <published>2023-11-18T23:33:05.000Z</published>
+    <updated>2023-11-19T12:03:31.445Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;当使用Spring</summary>
+        
+      
+    
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/categories/spring/"/>
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring 注解</title>
+    <link href="https://a-caibird.github.io/2023/11/19/spring-zhu-jie/"/>
+    <id>https://a-caibird.github.io/2023/11/19/spring-zhu-jie/</id>
+    <published>2023-11-18T23:31:28.000Z</published>
+    <updated>2023-11-19T12:03:31.444Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Spring Boot是一个用于构建Java应用程序的开源框架，它简化了基于Spring框架的应用程序的开发过程。Spring Boot提供了许多注解，用于配置和管理应用程序的各个方面。以下是一些常用的Spring</summary>
+        
+      
+    
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/categories/spring/"/>
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring技术大纲</title>
+    <link href="https://a-caibird.github.io/2023/11/19/spring-ji-zhu-da-gang/"/>
+    <id>https://a-caibird.github.io/2023/11/19/spring-ji-zhu-da-gang/</id>
+    <published>2023-11-18T23:28:32.000Z</published>
+    <updated>2023-11-19T12:03:31.448Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;IoC（控制反转）和DI（依赖注入）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;理解IoC和DI的概念&lt;/li&gt;
+&lt;li&gt;学习如何使用注解实现DI&lt;/li&gt;
+&lt;li&gt;了解如何通过注解配置Bean的依赖关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Spring核心注</summary>
+        
+      
+    
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/categories/spring/"/>
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>servlet解决跨域</title>
+    <link href="https://a-caibird.github.io/2023/11/19/servlet-jie-jue-kua-yu/"/>
+    <id>https://a-caibird.github.io/2023/11/19/servlet-jie-jue-kua-yu/</id>
+    <published>2023-11-18T23:25:50.000Z</published>
+    <updated>2023-11-19T12:03:31.447Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;底层使用Java代码解决跨域问题，你可以通过配置&lt;code&gt;CorsFilter&lt;/code&gt;或者自定义&lt;code&gt;Filter&lt;/code&gt;来实现。&lt;/p&gt;
+&lt;p&gt;下面是使用Java代码解决跨域问题的示例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;创建一个名为&lt;code&gt;Cors</summary>
+        
+      
+    
+    
+    
+    <category term="servlet" scheme="https://a-caibird.github.io/categories/servlet/"/>
+    
+    
+    <category term="servlet" scheme="https://a-caibird.github.io/tags/servlet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>beans详解</title>
+    <link href="https://a-caibird.github.io/2023/11/19/beans-xiang-jie/"/>
+    <id>https://a-caibird.github.io/2023/11/19/beans-xiang-jie/</id>
+    <published>2023-11-18T23:22:56.000Z</published>
+    <updated>2023-11-19T12:03:31.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在Spring框架中，Bean是由IoC（Inversion of</summary>
+        
+      
+    
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/categories/spring/"/>
+    
+    
+    <category term="spring" scheme="https://a-caibird.github.io/tags/spring/"/>
+    
+  </entry>
+  
+</feed>
