@@ -184,7 +184,7 @@ body.DarkMode table th {
     background-color: #666666!important;
     color: rgb(49 190 126);
 }
-.DarkMode .btn-floating, .DarkMode #floating-toc-btn .btn-floating, .DarkMode .btn-floating, .DarkMode #switchspring {
+.DarkMode .btn-floating, .DarkMode #floating-toc-btn .btn-floating, .DarkMode .btn-floating, .DarkMode #switchSpring {
     background-color:rgba(255, 255, 255, 0.6);
 }
 /*音乐播放器*/
@@ -295,7 +295,7 @@ body.DarkMode table tr:nth-child(2n),
 body.DarkMode thead {
     background-color: #282c34;
 }
-body.DarkMode #fMessageBoard, body.DarkMode .fArticleMessage, body.DarkMode #fcircleMoreBtn, .DarkMode #switchspring {
+body.DarkMode #fMessageBoard, body.DarkMode .fArticleMessage, body.DarkMode #fcircleMoreBtn, .DarkMode #switchSpring {
     background-color:#fbfbfb50 !important;
 }
 /*about页面细节*/

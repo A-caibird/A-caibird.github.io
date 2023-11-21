@@ -4,6 +4,199 @@
   
     
     <entry>
+      <title>npm创建typescript项目</title>
+      <link href="/2023/11/22/npm-chuang-jian-typescript-xiang-mu/"/>
+      <url>/2023/11/22/npm-chuang-jian-typescript-xiang-mu/</url>
+      
+        <content type="html"><![CDATA[<p>首先，您需要确保已在计算机上安装了Node.js和NPM。在安装完成后，您可以按照以下步骤初始化一个TypeScript项目：</p><ol><li><p>打开命令行界面（例如终端或命令提示符）并导航到要创建项目的目录。</p></li><li><p>使用npm init 命令初始化npm项目（如果你已经有了npm项目，请跳过此步骤），这将创建一个package.json文件来管理您的项目依赖。</p><pre class="line-numbers language-none"><code class="language-none">npm init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>现在，您可以使用npm install命令安装TypeScript。请确保使用–save-dev选项来将其添加到您的开发依赖中。</p><pre class="line-numbers language-none"><code class="language-none">npm install typescript --save-dev<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>接下来，在项目根目录下创建一个名为tsconfig.json的TypeScript配置文件。</p><pre class="line-numbers language-none"><code class="language-none">touch tsconfig.json<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>在tsconfig.json文件中添加 TypeScript 编译器选项，以指定编译生成 JavaScript 的输出目标格式和目录结构等内容。</p><pre class="line-numbers language-none"><code class="language-none">{    "compilerOptions": {        "target": "es6",        "module": "commonjs",        "outDir": "dist"    }}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>最后，请在package.json文件中添加一个scripts对象来定义使用TypeScript编译器编译您的代码命令。</p><pre class="line-numbers language-none"><code class="language-none">"scripts": {    "build": "tsc"}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol><p>现在，您应该可以运行以下命令来编译您的TypeScript代码：</p><pre class="line-numbers language-none"><code class="language-none">npm run build<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>此命令将使用tsc编译器将项目中所有的TypeScript文件转换为JavaScript，并将其输出到tsconfig.json文件中指定的目录结构（例如dist文件夹）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Node.js </category>
+          
+          <category> Typescript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Node.js </tag>
+            
+            <tag> typescript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>centos安装mysql8</title>
+      <link href="/2023/11/22/centos-an-zhuang-mysql/"/>
+      <url>/2023/11/22/centos-an-zhuang-mysql/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://juejin.cn/post/7056265988673568781">centos8 安装mysql</a></p><blockquote><p>不同的地方</p></blockquote><ol><li><p>拉仓库：<code>wget https://repo.mysql.com/mysql80-community-release-el8-1.noarch.rpm</code></p></li><li><p>yum 安装<code>yum -y install mysql80-community-release-el8-1.noarch.rpm</code></p></li><li><p><code>yum module disable mysql</code></p></li><li><p><code>yum -y install mysql-community-server</code></p></li><li><p>删除rpm文件防止更新 <code>yum -e mysql80-community-release-el8-1.noarch.rpm</code></p></li></ol><p>​</p><blockquote><p>删除mysql</p></blockquote><p>如果您希望完全删除MySQL数据库，请使用以下命令：</p><ol><li><p>删除MySQL服务器软件包：</p><pre class="line-numbers language-none"><code class="language-none">perlCopy coderpm -qa | grep mysql | xargs rpm -e<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>删除MySQL数据目录（默认情况下是/var/lib/mysql）：</p><pre class="line-numbers language-none"><code class="language-none">bashCopy coderm -rf /var/lib/mysql<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><p>请注意，在执行这些命令之前，务必确保您真正希望删除MySQL数据库，并且备份重要的数据以防意外。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Centos </category>
+          
+          <category> Mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Centos </tag>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>查看私网和公网IP</title>
+      <link href="/2023/11/22/cha-kan-si-wang-luo-he-gong-wang-ip/"/>
+      <url>/2023/11/22/cha-kan-si-wang-luo-he-gong-wang-ip/</url>
+      
+        <content type="html"><![CDATA[<h2 id="macOS-Linux"><a href="#macOS-Linux" class="headerlink" title="macOS Linux"></a>macOS Linux</h2><p>在 macOS 上，你可以使用以下命令来查看本机的 IP 地址：</p><pre class="line-numbers language-zsh" data-language="zsh"><code class="language-zsh">ifconfig | grep "inet "<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这个命令会列出所有网络接口的详细信息，并通过管道 (<code>|</code>) 将输出传递给 <code>grep</code> 命令进行过滤。<code>grep "inet "</code> 将只显示包含 “inet “ 的行，也就是 IP 地址所在的行。</p><p>另外，你还可以使用以下命令来仅显示 IP 地址：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ipconfig getifaddr en0<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>其中，<code>en0</code> 是主要网络接口的标识符。如果你使用的是其他接口（例如 Wi-Fi 或以太网接口），可能需要将 <code>en0</code> 替换为相应接口的标识符。</p><p>请注意，在不同的 macOS 版本中，网络接口的标识符可能会有所不同。如果上述命令无法正常工作，请尝试使用 <code>ifconfig</code> 命令来查看网络接口列表，并找到适合你系统的接口标识符。</p><p>根据你提供的信息，第二个IP地址（10.89.134.138）是一个内部私有IP地址，而不是公网IP地址。内部私有IP地址通常在局域网内使用，并由路由器或网络设备分配。</p><p>要查找你的公网IP地址，你可以使用以下命令：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">curl</span> ifconfig.me<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>运行该命令后，会返回你的公网IP地址。请确保你的设备能够连接到互联网，否则无法正确获取公网IP地址。</p><h2 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> IP </category>
+          
+          <category> Mac </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> IP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac OS常用命令</title>
+      <link href="/2023/11/22/mac-os-chang-yong-ming-ling/"/>
+      <url>/2023/11/22/mac-os-chang-yong-ming-ling/</url>
+      
+        <content type="html"><![CDATA[<h2 id="terminal走代理"><a href="#terminal走代理" class="headerlink" title="terminal走代理"></a><a href="https://www.hangge.com/blog/cache/detail_3138.html">terminal走代理</a></h2><ol><li>修改配置文件。<code>vi ~/.zshrc</code></li><li>add config: <code>alias proxy='export all_proxy=socks5://127.0.0.1:7890'</code> <code>alias unproxy='unset all_proxy'</code></li><li>make config affect <code>source ~/.zshrc</code> </li><li>查询ip地址：<code>curl ipinfo.io</code></li><li>启用代理再查询ip地址：<code>proxy</code>+<code>curl ipinfo.io</code></li></ol><h2 id="添加brew到系统变量"><a href="#添加brew到系统变量" class="headerlink" title="添加brew到系统变量"></a><a href="https://blog.51cto.com/u_15655559/5530796">添加brew到系统变量</a></h2><p>1.<code>echo 'export PATH="/opt/homebrew/bin:$PATH"' &gt;&gt; ~/.bash_profile </code> :将文件输入到.bash_profile文件path变量中<br>2. <code>source ~/.bash_profile</code>:执行修改<br>3. <code>echo 'export  PATH="/opt/homebrew/bin/:$PATH"' &gt;&gt;~/.zshrc    4. </code>source ~/.zshrc`</p><h2 id="brew-list-软件名称显示软件的安装路径"><a href="#brew-list-软件名称显示软件的安装路径" class="headerlink" title="brew list 软件名称显示软件的安装路径"></a><code>brew list 软件名称</code>显示软件的安装路径</h2><h2 id="命令前加sudo为管理员执行"><a href="#命令前加sudo为管理员执行" class="headerlink" title="命令前加sudo为管理员执行"></a>命令前加<code>sudo</code>为管理员执行</h2><h2 id="命令走代理"><a href="#命令走代理" class="headerlink" title="命令走代理"></a>命令走代理</h2><p>1.git</p><p>设置端口代理</p><pre class="line-numbers language-none"><code class="language-none">git config --global http.proxy http://127.0.0.1:1088git config --global https.proxy https://127.0.0.1:1088<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>取消代理</p><pre class="line-numbers language-none"><code class="language-none">git config --global --unset http.proxygit config --global --unset https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>2.npm</p><p>取消代理</p><pre class="line-numbers language-none"><code class="language-none">npm config delete proxynpm config delete https-proxy设置代理<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>npm config set proxy <a href="http://127.0.0.1:1088/">http://127.0.0.1:1088</a><br>npm config set https-proxy <a href="http://127.0.0.1:1088/">http://127.0.0.1:1088</a><br>npm config set strict-ssl false</p><h2 id="给文件添加读写权限"><a href="#给文件添加读写权限" class="headerlink" title="给文件添加读写权限"></a>给文件添加读写权限</h2><p><code>sudo chmod -R 777 文件夹路径</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MacOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JDBC链接数据库</title>
+      <link href="/2023/11/22/jdbc-lian-jie-shu-ju-ku/"/>
+      <url>/2023/11/22/jdbc-lian-jie-shu-ju-ku/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java使用驱动连接链接数据库"><a href="#Java使用驱动连接链接数据库" class="headerlink" title="Java使用驱动连接链接数据库"></a>Java使用驱动连接链接数据库</h1><h2 id="驱动下载"><a href="#驱动下载" class="headerlink" title="驱动下载"></a><a href="https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.27">驱动下载</a></h2><h2 id="配置驱动"><a href="#配置驱动" class="headerlink" title="配置驱动"></a><a href="https://www.cnblogs.com/dadian/p/11936056.html">配置驱动</a></h2><h2 id="链接MySQL"><a href="#链接MySQL" class="headerlink" title="链接MySQL"></a>链接MySQL</h2><blockquote><p><code>try-catch</code>语句,打开链接,执行MySQL语句,接受返回值,关闭连接</p></blockquote><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">import java.sql.*;public class Main {    public void del(String url, String user, String password){        try {            Connection con = DriverManager.getConnection(url, user, password);            // Executing a query            Statement stmt = con.createStatement();            // 执行删除操作            int rowCount = stmt.executeUpdate("DELETE FROM student WHERE SName LIKE '白%'");            if (rowCount &gt; 0) {                System.out.println("成功删除 " + rowCount + " 条记录。");            } else {                System.out.println("没有找到匹配的记录。");            }            // stmt.executeQuery返回表第一个元组的引用            ResultSet rs = stmt.executeQuery("SELECT * FROM student");//            while (rs.next()) {//                String id = rs.getString("SId");//                String name = rs.getString("SName");//                System.out.println("ID: " + id + ", Name: " + name);//            }            rs.close();            stmt.close();            con.close();        } catch (SQLException e) {            e.printStackTrace();        }    }      public void ins(String url, String user, String password){        try {            Connection con = DriverManager.getConnection(url, user, password);            // Executing a query            Statement stmt = con.createStatement();            int numRowsAffected = stmt.executeUpdate("INSERT INTO student(GId,SId,SName,SSexy)VALUES(11,'018001','李白','男')");            System.out.println("插入了"+numRowsAffected+"行数据");            stmt.close();            con.close();        } catch (SQLException e) {            e.printStackTrace();        }    }      public void update(String url, String user, String password){        try {            //            Connection con = DriverManager.getConnection(url, user, password);            // Executing a query            Statement stmt = con.createStatement();            // executeUpdate方法返回表中更新的记录.            int numRowsAffected = stmt.executeUpdate("UPDATE student SET STele='660990' WHERE SId='032006007'");            System.out.println(numRowsAffected + "行已更新");            stmt.close();            con.close();        } catch (SQLException e) {            e.printStackTrace();        }    }    public static void main(String[] args) {        // Establishing a connection to the database        String url = "jdbc:mysql://localhost:3306/learndb";        String user = "root";        String password = "775028";        Main test=new Main();        test.del(url, user, password);        test.update(url, user, password);        test.ins(url, user, password);    }}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="使用mybatis连接数据库"><a href="#使用mybatis连接数据库" class="headerlink" title="使用mybatis连接数据库"></a>使用<code>mybatis</code>连接数据库</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> JDBC </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> JDBC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql创建表</title>
+      <link href="/2023/11/22/mysql-chuang-jian-biao/"/>
+      <url>/2023/11/22/mysql-chuang-jian-biao/</url>
+      
+        <content type="html"><![CDATA[<p>这段代码可能有以下原因导致错误：</p><ol><li><p>表名和列名使用了单引号，正确的写法应该是使用反引号。</p></li><li><p>‘uersname’ 应该是 ‘username’ 才正确。</p></li><li><p>指定了字符集为 utf8，但是未指定排序规则。</p></li></ol><p>下面是修正后的代码：</p><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE IF NOT EXISTS `user` (   `id` INT UNSIGNED AUTO_INCREMENT,   `username` VARCHAR(100) NOT NULL,   `host` VARCHAR(40) NOT NULL,   `password` VARCHAR(40) NOT NULL,   PRIMARY KEY (`id`)) ENGINE=InnoDB CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>在这个修正后的代码中，表名和列名使用了反引号，<code>username</code> 被修正了拼写，同时字符集被指定为 <code>utf8mb4</code>，并且指定了排序规则。<br><code>ENGINE=InnoDB</code> 表示创建的表使用 InnoDB 引擎，这是 MySQL 中一种流行的事务性存储引擎，具有 ACID（原子性、一致性、隔离性、持久性）特性，支持 MVCC 并发控制。</p><p><code>CHARSET=utf8mb4</code> 指定了字符集为 <code>utf8mb4</code>，它是一种支持更广泛的 Unicode 字符集的 UTF-8 编码方式。与传统的 <code>utf8</code> 相比，<code>utf8mb4</code> 可以存储更多的字符，包括一些 Emoji 等特殊字符。</p><p><code>COLLATE=utf8mb4_unicode_ci</code> 是排序规则，指定了在比较和排序时使用的字符集和排序方式。<code>utf8mb4_unicode_ci</code> 是一种基于 Unicode 的排序规则，支持多语言，比如中文、日语、韩语等，能够确保不同语言之间的字符串比较正确。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql权限设置</title>
+      <link href="/2023/11/22/mysql-quan-xian-she-zhi/"/>
+      <url>/2023/11/22/mysql-quan-xian-she-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MySQL权限命令"><a href="#MySQL权限命令" class="headerlink" title="MySQL权限命令"></a>MySQL权限命令</h1><h2 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h2><blockquote><p>创建用户并将用户信息储存在``表mysql.user`中.</p></blockquote><p><code>CREATE USER 'new_username'@'localhost' IDENTIFIED BY 'password';</code></p><blockquote><p>查询某个用户信息</p></blockquote><p><code>select * from mysql.user where User = '名字' and Host ='主机名'</code></p><h2 id="赋予用户权限"><a href="#赋予用户权限" class="headerlink" title="赋予用户权限"></a>赋予用户权限</h2><p><code>GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EXECUTE ON </code>1<code>.* TO 'local1'@'%';</code></p><p><em><em>注意:EXECUTE ON <code>1</code>.</em> TO ‘local1‘@’%’;`这表示给用户local1 主机号为% 在数据库为1上创建的用户权限</em>*.<strong>数据库的名字要用反引号包裹</strong></p><p>.</p><h3 id="修改外键权限"><a href="#修改外键权限" class="headerlink" title="修改外键权限"></a>修改外键权限</h3><p><code>grant references on </code> <code>1.* to 'local1' and 'host'</code></p><h2 id="查看用户权限"><a href="#查看用户权限" class="headerlink" title="查看用户权限"></a>查看用户权限</h2><h3 id="查看自己权限"><a href="#查看自己权限" class="headerlink" title="查看自己权限"></a>查看自己权限</h3><p><code>show grants</code></p><h3 id="查看特定用户权限"><a href="#查看特定用户权限" class="headerlink" title="查看特定用户权限"></a>查看特定用户权限</h3><p><code>show grants for 'name'@'%'</code></p><h2 id="修改用户密码"><a href="#修改用户密码" class="headerlink" title="修改用户密码"></a>修改用户密码</h2><h2 id="SET-PASSWORD-FOR-alogin-mima"><a href="#SET-PASSWORD-FOR-alogin-mima" class="headerlink" title="SET PASSWORD FOR 'alogin'@'%' = 'mima';"></a><code>SET PASSWORD FOR 'alogin'@'%' = 'mima';</code></h2><h2 id="创建角色"><a href="#创建角色" class="headerlink" title="创建角色"></a>创建角色</h2><p>以下是在MySQL中创建新角色并为其授予权限的步骤：</p><ol><li><p>使用管理员权限登录MySQL，比如root用户。</p></li><li><p>创建名为“arole”的角色，请使用以下命令：</p></li></ol><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE ROLE arole;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="3"><li>授予角色在表Student上的select、insert、update和delete权限。请使用以下命令：</li></ol><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">GRANT SELECT, INSERT, UPDATE, DELETE ON learndb.Student TO arole;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="4"><li>授予角色在表Grade上的select、insert、update和delete权限。请使用以下命令：</li></ol><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">GRANT SELECT, INSERT, UPDATE, DELETE ON learndb.Grade TO arole;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="5"><li>将arole授予用户，使用户可以继承该角色的权限。例如，如果要将arole授予用户alogin_ldb，请使用以下命令：</li></ol><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">GRANT arole TO 'alogin_ldb'@'localhost';<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="6"><li>刷新MySQL权限表以使更改生效：</li></ol><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">FLUSH PRIVILEGES;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>现在，您可以尝试使用用户alogin_ldb登录到MySQL客户端，并测试是否可以查询、插入、更新和删除learndb数据库中的Student和Grade表。</p><p>例如，您可以使用以下语句查询Student表：</p><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">SELECT * FROM Student;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>或者，您可以使用以下语句向Grade表中添加新行：</p><pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">INSERT INTO Grade (sid, cid, score) VALUES ('10001', '1', 85);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>如果用户具有足够的权限，则应成功执行查询或插入操作。否则，将显示错误消息并拒绝该操作。</p><h2 id="删除除开root以外的所有用户"><a href="#删除除开root以外的所有用户" class="headerlink" title="删除除开root以外的所有用户"></a>删除除开<code>root</code>以外的所有用户</h2><p>在MySQL中，您可以使用以下步骤删除除root以外的所有用户：</p><ol><li><p>使用管理员权限登录MySQL，比如root用户。</p></li><li><p>执行以下查询以查找当前所有用户（除root之外）：</p></li></ol><pre class="line-numbers language-none"><code class="language-none">SELECT user FROM mysql.user WHERE user NOT LIKE 'root' AND user NOT LIKE 'mysql.%';<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>此查询将返回不是以“root”或“mysql”开头的所有用户的列表。</p><ol start="3"><li>对于返回的每个用户，执行以下查询来删除该用户和其关联的权限和对象：</li></ol><pre class="line-numbers language-none"><code class="language-none">DROP USER 'username'@'localhost';<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>请将“username”替换为要删除的特定用户的名称。</p><ol start="4"><li>刷新MySQL权限表以使更改生效：</li></ol><pre class="line-numbers language-none"><code class="language-none">FLUSH PRIVILEGES;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>现在，除了系统用户和root用户之外，所有其他用户均已从MySQL服务器中删除。请注意，在执行此操作之前，请务必备份所有需要保留的数据，并确保不会误删重要的用户账户。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+            <tag> 权限、角色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>正则表达式检验身份证有效性</title>
       <link href="/2023/11/22/zheng-ze-biao-da-shi-jian-yan-shen-fen-zheng-you-xiao-xing/"/>
       <url>/2023/11/22/zheng-ze-biao-da-shi-jian-yan-shen-fen-zheng-you-xiao-xing/</url>
@@ -306,7 +499,7 @@
       
       <categories>
           
-          <category> node.js </category>
+          <category> Node.js </category>
           
       </categories>
       
@@ -315,7 +508,7 @@
             
             <tag> pm2 </tag>
             
-            <tag> node.js </tag>
+            <tag> Node.js </tag>
             
         </tags>
       
@@ -444,14 +637,14 @@
       
       <categories>
           
-          <category> spring </category>
+          <category> Spring </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> spring </tag>
+            <tag> Spring </tag>
             
         </tags>
       
@@ -469,14 +662,14 @@
       
       <categories>
           
-          <category> spring </category>
+          <category> Spring </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> spring </tag>
+            <tag> Spring </tag>
             
         </tags>
       
@@ -494,14 +687,14 @@
       
       <categories>
           
-          <category> spring </category>
+          <category> Spring </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> spring </tag>
+            <tag> Spring </tag>
             
         </tags>
       
@@ -544,14 +737,14 @@
       
       <categories>
           
-          <category> spring </category>
+          <category> Spring </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> spring </tag>
+            <tag> Spring </tag>
             
         </tags>
       
@@ -576,7 +769,7 @@
       
         <tags>
             
-            <tag> spring </tag>
+            <tag> Spring </tag>
             
         </tags>
       
