@@ -6,7 +6,7 @@
   <link href="https://a-caibird.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-caibird.github.io/"/>
-  <updated>2023-11-21T05:57:33.484Z</updated>
+  <updated>2023-11-21T06:04:23.044Z</updated>
   <id>https://a-caibird.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正则表达式检验身份证有效性</title>
+    <link href="https://a-caibird.github.io/2023/11/22/zheng-ze-biao-da-shi-jian-yan-shen-fen-zheng-you-xiao-xing/"/>
+    <id>https://a-caibird.github.io/2023/11/22/zheng-ze-biao-da-shi-jian-yan-shen-fen-zheng-you-xiao-xing/</id>
+    <published>2023-11-21T21:03:11.000Z</published>
+    <updated>2023-11-21T06:04:23.044Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java正则表达式实现身份证号码检验&quot;&gt;&lt;a href=&quot;#Java正则表达式实现身份证号码检验&quot; class=&quot;headerlink&quot; title=&quot;Java正则表达式实现身份证号码检验&quot;&gt;&lt;/a&gt;Java正则表达式实现身份证号码检验&lt;/h1&gt;&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="Regex" scheme="https://a-caibird.github.io/categories/Regex/"/>
+    
+    
+    <category term="Regex" scheme="https://a-caibird.github.io/tags/Regex/"/>
+    
+    <category term="java" scheme="https://a-caibird.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>java实现计算器</title>
@@ -517,34 +544,6 @@
     
     
     <category term="spring" scheme="https://a-caibird.github.io/tags/spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>servlet解决跨域</title>
-    <link href="https://a-caibird.github.io/2023/11/19/servlet-jie-jue-kua-yu/"/>
-    <id>https://a-caibird.github.io/2023/11/19/servlet-jie-jue-kua-yu/</id>
-    <published>2023-11-18T23:25:50.000Z</published>
-    <updated>2023-11-19T12:03:31.447Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;底层使用Java代码解决跨域问题，你可以通过配置&lt;code&gt;CorsFilter&lt;/code&gt;或者自定义&lt;code&gt;Filter&lt;/code&gt;来实现。&lt;/p&gt;
-&lt;p&gt;下面是使用Java代码解决跨域问题的示例：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;创建一个名为&lt;code&gt;Cors</summary>
-        
-      
-    
-    
-    
-    <category term="servlet" scheme="https://a-caibird.github.io/categories/servlet/"/>
-    
-    
-    <category term="servlet" scheme="https://a-caibird.github.io/tags/servlet/"/>
     
   </entry>
   
