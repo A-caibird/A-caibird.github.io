@@ -6,7 +6,7 @@
   <link href="https://a-caibird.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-caibird.github.io/"/>
-  <updated>2023-11-21T06:26:59.485Z</updated>
+  <updated>2023-11-21T06:55:31.604Z</updated>
   <id>https://a-caibird.github.io/</id>
   
   <author>
@@ -15,6 +15,197 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>scanf高级用法</title>
+    <link href="https://a-caibird.github.io/2023/11/22/scanf-gao-ji-yong-fa/"/>
+    <id>https://a-caibird.github.io/2023/11/22/scanf-gao-ji-yong-fa/</id>
+    <published>2023-11-21T21:55:01.000Z</published>
+    <updated>2023-11-21T06:55:31.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;题目详情-7-4-查找书籍-pintia-cn&quot;&gt;&lt;a href=&quot;#题目详情-7-4-查找书籍-pintia-cn&quot; class=&quot;headerlink&quot; title=&quot;题目详情 - 7-4 查找书籍 (pintia.cn)&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="C" scheme="https://a-caibird.github.io/categories/C/"/>
+    
+    
+    <category term="OJ" scheme="https://a-caibird.github.io/tags/OJ/"/>
+    
+    <category term="C" scheme="https://a-caibird.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typescirpt基础类型</title>
+    <link href="https://a-caibird.github.io/2023/11/22/typescirpt-ji-chu-lei-xing/"/>
+    <id>https://a-caibird.github.io/2023/11/22/typescirpt-ji-chu-lei-xing/</id>
+    <published>2023-11-21T21:53:06.000Z</published>
+    <updated>2023-11-21T06:54:16.886Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Typescript类型总结&quot;&gt;&lt;a href=&quot;#Typescript类型总结&quot; class=&quot;headerlink&quot; title=&quot;Typescript类型总结&quot;&gt;&lt;/a&gt;Typescript类型总结&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Typescirpt" scheme="https://a-caibird.github.io/categories/Typescirpt/"/>
+    
+    
+    <category term="Typescript" scheme="https://a-caibird.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言有名管道实现进程的通信</title>
+    <link href="https://a-caibird.github.io/2023/11/22/c-yu-yan-you-ming-guan-dao-shi-xian-jin-cheng-de-tong-xin/"/>
+    <id>https://a-caibird.github.io/2023/11/22/c-yu-yan-you-ming-guan-dao-shi-xian-jin-cheng-de-tong-xin/</id>
+    <published>2023-11-21T21:51:17.000Z</published>
+    <updated>2023-11-21T06:52:32.148Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;非亲属进程之间的通信通过有名管道来实现&quot;&gt;&lt;a href=&quot;#非亲属进程之间的通信通过有名管道来实现&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="进程通信" scheme="https://a-caibird.github.io/categories/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+    <category term="C" scheme="https://a-caibird.github.io/categories/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/C/"/>
+    
+    
+    <category term="C" scheme="https://a-caibird.github.io/tags/C/"/>
+    
+    <category term="有名管道" scheme="https://a-caibird.github.io/tags/%E6%9C%89%E5%90%8D%E7%AE%A1%E9%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言通过无名管道实现进程通信</title>
+    <link href="https://a-caibird.github.io/2023/11/22/c-yu-yan-tong-guo-wu-ming-guan-dao-shi-xian-jin-cheng-tong-xin/"/>
+    <id>https://a-caibird.github.io/2023/11/22/c-yu-yan-tong-guo-wu-ming-guan-dao-shi-xian-jin-cheng-tong-xin/</id>
+    <published>2023-11-21T21:49:13.000Z</published>
+    <updated>2023-11-21T06:49:57.153Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;实验1：编写一个简单的程序实现管道的创建与读写方法&quot;&gt;&lt;a href=&quot;#实验1：编写一个简单的程序实现管道的创建与读写方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C" scheme="https://a-caibird.github.io/categories/C/"/>
+    
+    <category term="进程通信" scheme="https://a-caibird.github.io/categories/C/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+    
+    <category term="C" scheme="https://a-caibird.github.io/tags/C/"/>
+    
+    <category term="无名管道" scheme="https://a-caibird.github.io/tags/%E6%97%A0%E5%90%8D%E7%AE%A1%E9%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言消息队列实现进程通信</title>
+    <link href="https://a-caibird.github.io/2023/11/22/c-yu-yan-xiao-xi-dui-lie-shi-xian-jin-cheng-tong-xin/"/>
+    <id>https://a-caibird.github.io/2023/11/22/c-yu-yan-xiao-xi-dui-lie-shi-xian-jin-cheng-tong-xin/</id>
+    <published>2023-11-21T21:45:37.000Z</published>
+    <updated>2023-11-21T06:47:17.042Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;通过消息队列实现进程的通信&quot;&gt;&lt;a href=&quot;#通过消息队列实现进程的通信&quot; class=&quot;headerlink&quot; title=&quot;通过消息队列实现进程的通信&quot;&gt;&lt;/a&gt;通过消息队列实现进程的通信&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="进程通信" scheme="https://a-caibird.github.io/categories/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+    
+    <category term="C" scheme="https://a-caibird.github.io/tags/C/"/>
+    
+    <category term="进程通信" scheme="https://a-caibird.github.io/tags/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Css总结</title>
+    <link href="https://a-caibird.github.io/2023/11/22/css-zong-jie/"/>
+    <id>https://a-caibird.github.io/2023/11/22/css-zong-jie/</id>
+    <published>2023-11-21T21:41:09.000Z</published>
+    <updated>2023-11-21T06:44:14.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CSS语法总结&quot;&gt;&lt;a href=&quot;#CSS语法总结&quot; class=&quot;headerlink&quot; title=&quot;CSS语法总结&quot;&gt;&lt;/a&gt;CSS语法总结&lt;/h1&gt;&lt;h2 id=&quot;CSS优先级&quot;&gt;&lt;a href=&quot;#CSS优先级&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://a-caibird.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="https://a-caibird.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacOS显示隐藏文件</title>
+    <link href="https://a-caibird.github.io/2023/11/22/macos-xian-shi-yin-cang-wen-jian/"/>
+    <id>https://a-caibird.github.io/2023/11/22/macos-xian-shi-yin-cang-wen-jian/</id>
+    <published>2023-11-21T21:38:07.000Z</published>
+    <updated>2023-11-21T06:39:14.816Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在 macOS</summary>
+        
+      
+    
+    
+    
+    <category term="Mac" scheme="https://a-caibird.github.io/categories/Mac/"/>
+    
+    <category term="MacOs" scheme="https://a-caibird.github.io/categories/Mac/MacOs/"/>
+    
+    
+    <category term="MasOS" scheme="https://a-caibird.github.io/tags/MasOS/"/>
+    
+    <category term="Linux" scheme="https://a-caibird.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>npm创建typescript项目</title>
@@ -382,186 +573,6 @@
     <category term="Regex" scheme="https://a-caibird.github.io/tags/Regex/"/>
     
     <category term="正则表达式" scheme="https://a-caibird.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态拼接本地图片路径</title>
-    <link href="https://a-caibird.github.io/2023/11/20/dong-tai-pin-jie-ben-di-tu-pian-lu-jing/"/>
-    <id>https://a-caibird.github.io/2023/11/20/dong-tai-pin-jie-ben-di-tu-pian-lu-jing/</id>
-    <published>2023-11-20T03:45:29.000Z</published>
-    <updated>2023-11-19T12:47:44.030Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;vue图片路径动态拼接报错&quot;&gt;&lt;a href=&quot;#vue图片路径动态拼接报错&quot; class=&quot;headerlink&quot; title=&quot;vue图片路径动态拼接报错&quot;&gt;&lt;/a&gt;vue图片路径动态拼接报错&lt;/h1&gt;&lt;h2 id=&quot;失败加载的原因&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>组件之间数据传递</title>
-    <link href="https://a-caibird.github.io/2023/11/20/zu-jian-zhi-jian-shu-ju-chuan-di/"/>
-    <id>https://a-caibird.github.io/2023/11/20/zu-jian-zhi-jian-shu-ju-chuan-di/</id>
-    <published>2023-11-20T03:41:29.000Z</published>
-    <updated>2023-11-19T12:43:19.084Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;组件之间的数据传递&quot;&gt;&lt;a href=&quot;#组件之间的数据传递&quot; class=&quot;headerlink&quot; title=&quot;组件之间的数据传递&quot;&gt;&lt;/a&gt;组件之间的数据传递&lt;/h2&gt;&lt;h3 id=&quot;父组件向子组件传递值v-bind-单向数据传递&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>虚拟 dom 延时加载</title>
-    <link href="https://a-caibird.github.io/2023/11/20/xu-ni-dom-yan-shi-jia-zai/"/>
-    <id>https://a-caibird.github.io/2023/11/20/xu-ni-dom-yan-shi-jia-zai/</id>
-    <published>2023-11-20T03:37:39.000Z</published>
-    <updated>2023-11-19T12:39:39.270Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;解决虚拟DOM未更新【异步】对于问题&quot;&gt;&lt;a href=&quot;#解决虚拟DOM未更新【异步】对于问题&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue 函数获取原生 dom</title>
-    <link href="https://a-caibird.github.io/2023/11/20/vue-han-shu-huo-qu-yuan-sheng-dom/"/>
-    <id>https://a-caibird.github.io/2023/11/20/vue-han-shu-huo-qu-yuan-sheng-dom/</id>
-    <published>2023-11-20T03:34:50.000Z</published>
-    <updated>2023-11-19T12:35:42.650Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;pre class=&quot;line-numbers language-typescript&quot; data-language=&quot;typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue路由</title>
-    <link href="https://a-caibird.github.io/2023/11/20/vue-lu-you/"/>
-    <id>https://a-caibird.github.io/2023/11/20/vue-lu-you/</id>
-    <published>2023-11-20T03:31:06.000Z</published>
-    <updated>2023-11-19T12:33:38.218Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;vue中的路由&quot;&gt;&lt;a href=&quot;#vue中的路由&quot; class=&quot;headerlink&quot; title=&quot;vue中的路由&quot;&gt;&lt;/a&gt;&lt;code&gt;vue&lt;/code&gt;中的路由&lt;/h2&gt;&lt;h3 id=&quot;实现原理&quot;&gt;&lt;a href=&quot;#实现原理&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://a-caibird.github.io/tags/vue/"/>
-    
-    <category term="vue-router" scheme="https://a-caibird.github.io/tags/vue-router/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pm2后台运行 node,js 项目</title>
-    <link href="https://a-caibird.github.io/2023/11/20/pm2-hou-tai-yun-xing-node-js-xiang-mu/"/>
-    <id>https://a-caibird.github.io/2023/11/20/pm2-hou-tai-yun-xing-node-js-xiang-mu/</id>
-    <published>2023-11-20T03:26:50.000Z</published>
-    <updated>2023-11-21T06:28:34.465Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在 CentOS 终端中启动 Node.js 项目时，如果你关闭终端，该项目也会停止运行，这是因为终端关闭会导致该进程的终止。为了解决这个问题，你可以使用一些方法来让项目在后台持续运行，即使终端关闭。以下是几种可行的方法：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;使用 nohup</summary>
-        
-      
-    
-    
-    
-    <category term="Node.js" scheme="https://a-caibird.github.io/categories/Node-js/"/>
-    
-    
-    <category term="pm2" scheme="https://a-caibird.github.io/tags/pm2/"/>
-    
-    <category term="Node.js" scheme="https://a-caibird.github.io/tags/Node-js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>破解软件列表</title>
-    <link href="https://a-caibird.github.io/2023/11/20/po-jie-ruan-jian-lie-biao/"/>
-    <id>https://a-caibird.github.io/2023/11/20/po-jie-ruan-jian-lie-biao/</id>
-    <published>2023-11-20T03:19:56.000Z</published>
-    <updated>2023-11-19T12:20:21.776Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;资源列表&quot;&gt;&lt;a href=&quot;#资源列表&quot; class=&quot;headerlink&quot; title=&quot;资源列表&quot;&gt;&lt;/a&gt;资源列表&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="破解软件" scheme="https://a-caibird.github.io/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
