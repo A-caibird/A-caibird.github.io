@@ -6,7 +6,7 @@
   <link href="https://a-caibird.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-caibird.github.io/"/>
-  <updated>2023-11-24T16:20:18.538Z</updated>
+  <updated>2023-11-28T11:26:14.091Z</updated>
   <id>https://a-caibird.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>frp实现内网穿透</title>
+    <link href="https://a-caibird.github.io/2023/11/29/frp-shi-xian-nei-wang-chuan-tou/"/>
+    <id>https://a-caibird.github.io/2023/11/29/frp-shi-xian-nei-wang-chuan-tou/</id>
+    <published>2023-11-29T02:10:38.000Z</published>
+    <updated>2023-11-28T11:26:14.091Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="内网穿透" scheme="https://a-caibird.github.io/categories/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    
+    
+    <category term="frp" scheme="https://a-caibird.github.io/tags/frp/"/>
+    
+  </entry>
   
   <entry>
     <title>致她</title>
@@ -49,7 +74,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;题目详情-7-4-查找书籍-pintia-cn&quot;&gt;&lt;a href=&quot;#题目详情-7-4-查找书籍-pintia-cn&quot; class=&quot;headerlink&quot; title=&quot;题目详情 - 7-4 查找书籍 (pintia.cn)&quot;&gt;&lt;/a&gt;&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -76,7 +101,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Typescript类型总结&quot;&gt;&lt;a href=&quot;#Typescript类型总结&quot; class=&quot;headerlink&quot; title=&quot;Typescript类型总结&quot;&gt;&lt;/a&gt;Typescript类型总结&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -101,7 +126,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;非亲属进程之间的通信通过有名管道来实现&quot;&gt;&lt;a href=&quot;#非亲属进程之间的通信通过有名管道来实现&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -130,7 +155,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;实验1：编写一个简单的程序实现管道的创建与读写方法&quot;&gt;&lt;a href=&quot;#实验1：编写一个简单的程序实现管道的创建与读写方法&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -159,7 +184,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;通过消息队列实现进程的通信&quot;&gt;&lt;a href=&quot;#通过消息队列实现进程的通信&quot; class=&quot;headerlink&quot; title=&quot;通过消息队列实现进程的通信&quot;&gt;&lt;/a&gt;通过消息队列实现进程的通信&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -186,7 +211,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;CSS语法总结&quot;&gt;&lt;a href=&quot;#CSS语法总结&quot; class=&quot;headerlink&quot; title=&quot;CSS语法总结&quot;&gt;&lt;/a&gt;CSS语法总结&lt;/h1&gt;&lt;h2 id=&quot;CSS优先级&quot;&gt;&lt;a href=&quot;#CSS优先级&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -211,7 +236,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;在 macOS</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -240,11 +265,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;首先，您需要确保已在计算机上安装了Node.js和NPM。在安装完成后，您可以按照以下步骤初始化一个TypeScript项目：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;打开命令行界面（例如终端或命令提示符）并导航到要创建项目的目录。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;使用npm</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -273,7 +294,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://juejin.cn/post/7056265988673568781&quot;&gt;centos8</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -302,7 +323,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;macOS-Linux&quot;&gt;&lt;a href=&quot;#macOS-Linux&quot; class=&quot;headerlink&quot; title=&quot;macOS Linux&quot;&gt;&lt;/a&gt;macOS Linux&lt;/h2&gt;&lt;p&gt;在 macOS 上，你可以使用以下命令来查看本机的 IP</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -331,7 +352,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;terminal走代理&quot;&gt;&lt;a href=&quot;#terminal走代理&quot; class=&quot;headerlink&quot; title=&quot;terminal走代理&quot;&gt;&lt;/a&gt;&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -356,7 +377,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Java使用驱动连接链接数据库&quot;&gt;&lt;a href=&quot;#Java使用驱动连接链接数据库&quot; class=&quot;headerlink&quot; title=&quot;Java使用驱动连接链接数据库&quot;&gt;&lt;/a&gt;Java使用驱动连接链接数据库&lt;/h1&gt;&lt;h2 id=&quot;驱动下载&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -367,9 +388,9 @@
     <category term="JDBC" scheme="https://a-caibird.github.io/categories/Java/JDBC/"/>
     
     
-    <category term="Java" scheme="https://a-caibird.github.io/tags/Java/"/>
-    
     <category term="JDBC" scheme="https://a-caibird.github.io/tags/JDBC/"/>
+    
+    <category term="Java" scheme="https://a-caibird.github.io/tags/Java/"/>
     
   </entry>
   
@@ -385,13 +406,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;这段代码可能有以下原因导致错误：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;表名和列名使用了单引号，正确的写法应该是使用反引号。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;‘uersname’ 应该是 ‘username’ 才正确。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;指定了字符集为</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -416,7 +431,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;MySQL权限命令&quot;&gt;&lt;a href=&quot;#MySQL权限命令&quot; class=&quot;headerlink&quot; title=&quot;MySQL权限命令&quot;&gt;&lt;/a&gt;MySQL权限命令&lt;/h1&gt;&lt;h2 id=&quot;创建用户&quot;&gt;&lt;a href=&quot;#创建用户&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -443,7 +458,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Java正则表达式实现身份证号码检验&quot;&gt;&lt;a href=&quot;#Java正则表达式实现身份证号码检验&quot; class=&quot;headerlink&quot; title=&quot;Java正则表达式实现身份证号码检验&quot;&gt;&lt;/a&gt;Java正则表达式实现身份证号码检验&lt;/h1&gt;&lt;pre</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -470,7 +485,7 @@
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -494,14 +509,14 @@
     <link href="https://a-caibird.github.io/2023/11/20/cpp-dai-ma-mo-ban/"/>
     <id>https://a-caibird.github.io/2023/11/20/cpp-dai-ma-mo-ban/</id>
     <published>2023-11-20T04:32:24.000Z</published>
-    <updated>2023-11-19T13:35:30.154Z</updated>
+    <updated>2023-11-19T13:35:30.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-cpp&quot; data-language=&quot;cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -523,14 +538,14 @@
     <link href="https://a-caibird.github.io/2023/11/20/git-ming-ling-da-quan/"/>
     <id>https://a-caibird.github.io/2023/11/20/git-ming-ling-da-quan/</id>
     <published>2023-11-20T03:57:16.000Z</published>
-    <updated>2023-11-19T13:26:53.017Z</updated>
+    <updated>2023-11-19T13:26:53.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Git指南&quot;&gt;&lt;a href=&quot;#Git指南&quot; class=&quot;headerlink&quot; title=&quot;Git指南&quot;&gt;&lt;/a&gt;Git指南&lt;/h1&gt;&lt;h2 id=&quot;git-checkout-切换分支&quot;&gt;&lt;a href=&quot;#git-checkout-切换分支&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -540,31 +555,6 @@
     
     
     <category term="Git" scheme="https://a-caibird.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql 储存过程</title>
-    <link href="https://a-caibird.github.io/2023/11/20/mysql-chu-cun-guo-cheng/"/>
-    <id>https://a-caibird.github.io/2023/11/20/mysql-chu-cun-guo-cheng/</id>
-    <published>2023-11-20T03:55:02.000Z</published>
-    <updated>2023-11-19T12:56:03.011Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;mysql储存过程&quot;&gt;&lt;a href=&quot;#mysql储存过程&quot; class=&quot;headerlink&quot; title=&quot;mysql储存过程&quot;&gt;&lt;/a&gt;mysql储存过程&lt;/h1&gt;&lt;h2 id=&quot;成绩-学生信息表定义&quot;&gt;&lt;a href=&quot;#成绩-学生信息表定义&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="mysql" scheme="https://a-caibird.github.io/categories/mysql/"/>
-    
-    
-    <category term="mysql" scheme="https://a-caibird.github.io/tags/mysql/"/>
     
   </entry>
   
