@@ -4,7 +4,7 @@
     src: url('../font/hanyimaqiduojian.ttf');
 }
 
-/** 表示全局使用，如果不想全局使用不要添加该段 */
+/* * 表示全局使用，如果不想全局使用不要添加该段
 * {
     font-family: 'diyFont' !important;
-}
+} */
