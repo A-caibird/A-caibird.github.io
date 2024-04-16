@@ -4,6 +4,70 @@
   
     
     <entry>
+      <title>分布式和集群</title>
+      <link href="/2024/04/17/fen-bu-shi-he-ji-qun/"/>
+      <url>/2024/04/17/fen-bu-shi-he-ji-qun/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="分布式与集群"><a href="#分布式与集群" class="headerlink" title="分布式与集群"></a>分布式与集群</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p><strong>分布式</strong>是指将一个任务或应用程序分解成多个子任务，并在多台计算机上同时执行。分布式可以提高系统的并发处理能力和资源利用率。</p><p><strong>集群</strong>是指将多台计算机连接起来，作为一个整体对外提供服务。集群中的计算机通常具有相同的硬件和软件配置，它们之间通过网络进行通信。集群可以用于提高计算能力、存储容量、可靠性和可用性。</p><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p><strong>分布式</strong></p><ul><li>提高并发处理能力：多个子任务可以并行执行，从而提高系统的并发处理能力。</li><li>提高资源利用率：可以利用多台计算机的资源，提高资源利用率。</li><li>扩展性好：可以根据需要添加或删除计算机，方便扩展。</li></ul><p><strong>集群</strong></p><ul><li>提高计算能力：多台计算机可以协同工作，提高计算能力。</li><li>提高存储容量：多台计算机的存储空间可以累加，提高存储容量。</li><li>提高可靠性：一台计算机出现故障，其他计算机可以继续提供服务，提高可靠性。</li><li>提高可用性：可以将服务部署在多个数据中心，提高可用性。</li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p><strong>分布式</strong></p><ul><li>大型数据库：将数据库的数据分散到多台服务器上，提高数据库的查询性能和存储容量。</li><li>搜索引擎：将搜索任务分散到多台服务器上，提高搜索速度。</li><li>云计算：将计算资源分散到多台服务器上，为用户提供弹性可扩展的计算服务。</li></ul><p><strong>集群</strong></p><ul><li>高性能计算：用于科学计算、基因组学、金融分析等领域。</li><li>负载均衡：将负载分散到多台服务器上，避免单台服务器成为瓶颈。</li><li>高可用性：保证服务 7x24 小时可用。</li></ul><h3 id="现实中的实际例子"><a href="#现实中的实际例子" class="headerlink" title="现实中的实际例子"></a>现实中的实际例子</h3><p><strong>分布式</strong></p><ul><li>谷歌搜索引擎：使用分布式技术将搜索任务分散到全球数百万台服务器上，为用户提供快速准确的搜索结果。</li><li>亚马逊云计算平台：使用分布式技术为用户提供弹性可扩展的计算、存储、网络等服务。</li><li>Facebook：使用分布式技术存储和处理数十亿用户的社交数据。</li></ul><p><strong>集群</strong></p><ul><li>天网：中国国家超级计算中心，使用集群技术实现千万亿次浮点运算的计算能力。</li><li>CERN 大型强子对撞机：使用集群技术收集和分析实验数据。</li><li>高盛交易系统：使用集群技术处理高并发交易请求。</li></ul><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><p>分布式和集群是两个密切相关的概念，但它们之间也存在一些区别：</p><ul><li><strong>目的</strong>：分布式的目的是提高并发处理能力和资源利用率，而集群的目的是提高计算能力、存储容量、可靠性和可用性。</li><li><strong>实现方式</strong>：分布式通过将任务分解成多个子任务并行执行，而集群通过将多台计算机连接起来作为一个整体对外提供服务。</li><li><strong>应用场景</strong>：分布式通常应用于大数据处理、云计算、物联网等领域，而集群通常应用于高性能计算、高可用性、负载均衡等领域。</li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>分布式和集群都是计算机领域的重要技术，它们可以有效地提高系统的性能、可靠性、并发处理能力和资源利用率。</p><p><strong>参考资料</strong></p><ul><li><a href="https://tidb.net/blog/eb3cb609">https://tidb.net/blog/eb3cb609</a></li><li><a href="https://zh.wikipedia.org/zh-tw/%E9%9B%86%E7%BE%A4">https://zh.wikipedia.org/zh-tw/%E9%9B%86%E7%BE%A4</a></li><li><a href="https://baike.baidu.com/item/%E8%B6%85%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/22087312">https://baike.baidu.com/item/%E8%B6%85%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/22087312</a></li><li><a href="https://www.google.com/?hl=zh_CN">https://www.google.com/?hl=zh_CN</a></li><li><a href="https://aws.amazon.com/cn/choosing-a-cloud-platform/">https://aws.amazon.com/cn/choosing-a-cloud-platform/</a></li><li><a href="https://www.facebook.com/">https://www.facebook.com/</a></li><li><a href="https://en.wikipedia.org/wiki/Wikt:%E5%A4%A9">https://en.wikipedia.org/wiki/Wikt:%E5%A4%A9</a></li><li><a href="https://zh.wikipedia.org/wiki/Large_Hadron_Collider">https://zh.wikipedia.org/wiki/Large_Hadron_Collider</a></li><li><a href="https://www.goldmansachs.com/worldwide/greater-china/insights/GMD-People-Profile-Ling-Yuan.html">https://www.goldmansachs.com/worldwide/greater-china/insights/GMD-People-Profile-Ling-Yuan.html</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/01/04/typora/"/>
+      <url>/2024/01/04/typora/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h1><h2 id="文档分类"><a href="#文档分类" class="headerlink" title="文档分类"></a>文档分类</h2><h3 id="aaa"><a href="#aaa" class="headerlink" title="aaa"></a>aaa</h3><h3 id="bbb"><a href="#bbb" class="headerlink" title="bbb"></a>bbb</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>.editorconfig文件控制代码格式</title>
+      <link href="/2023/12/06/editorconfig-wen-jian-kong-zhi-dai-ma-ge-shi/"/>
+      <url>/2023/12/06/editorconfig-wen-jian-kong-zhi-dai-ma-ge-shi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>文件根目录新建<code>.editorconfig文件</code>,键入以下内容:</p><pre class="line-numbers language-none"><code class="language-none">root = true[*]charset = utf-8end_of_line = lfindent_size = 4indent_style = spaceinsert_final_newline = falsemax_line_length = 140tab_width = 4[*.less]indent_size = 4[*.sass]indent_size = 4[*.scss]indent_size = 4[*.vue]indent_size =  4tab_width = 4[{*.bash,*.sh,*.zsh}]indent_size = 4tab_width = 4[{*.har,*.jsb4,*.jsb3,*.json,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]indent_size = 4[{*.http,*.rest}]indent_size = 4[{*.yaml,*.yml}]indent_size = 4<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 代码格式控制 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/12/05/hello-world/"/>
+      <url>/2023/12/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> init blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图连通性判断</title>
       <link href="/2023/11/30/tu-lian-tong-xing-pan-duan/"/>
       <url>/2023/11/30/tu-lian-tong-xing-pan-duan/</url>
@@ -52,19 +116,6 @@
             <tag> frp </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>致她</title>
-      <link href="/2023/11/25/zhi-ta/"/>
-      <url>/2023/11/25/zhi-ta/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><font color="#eec584" size="5"> 如果你某一天偶然点开这个你我一起见证搭建成功的博客,希望你能打开这个POST,花几分钟读下去.</font></p><p>        下午的话,虽然没有当面和你说(因为我知道当面说,我做不到这么果断和绝情)看到你的反应,但应该让你很伤心了,对不起.</p><p>        在狠话说出口之前,我已经想到了结果,我会后悔,会心疼,我依然这么做了.</p><p>        我也不懂我自己为什么会这样,即使知道后果会让自己后悔、心痛,也依然会选择这样做,也许这就是我吧,异常的固执.现在想想你说我傻,倒是很有道理,那会没意识到咧.<br> <br></p><p>        不过,心痛的感觉前所未有,这是当时没想到的.温室呆久了,忘记了寒冬的感觉🙁.<br> <br></p><p>        之前刷到一个抖音视频:分手以后最先忘记的是对方的什么.有一条评论是:对方的不好.初看想笑,觉的是是小丑🤡,再看就是照镜子.</p><p>        让我心里不舒服的说狠话的原因:也就一些自我感觉的小事情要你应允,才可以.又想到一些事情虽然你向我说了,但是我不应允,你又会不开心,到时候我又应该来照顾你的情绪.感觉心里很不平衡,不愿意输这口气.现在来看,也没多大点事情,要是也许这时如果会不会不一样呢😊,不过我的性格……</p><p>        不过,我并没有像你说的那样玩弄你的感情(也许只是你的气话),就像之前第一次说的问句,如果慢慢越来越喜欢你怎么办?当时的疑问句,也是现在最好的陈述句.<br><br></p><p>        <font color="#F95738">现在所能想到的你,只有静静地时候你的唯美,一起走在路上的时候,矫正我的发音的欢快有趣(你这个发音不对~,是呢不是了,是您不是ning🔆,哈哈哈,开始怀念了呢,可惜这里没有qq的那些表情能表达出来),以及路上放开自我的随意唱歌,和你真诚与纯净的眸子以及在一起的时候握手放松以及内心的慢慢升温的感觉等等等等.这些点点滴滴不敢忘记,也难以忘记,以后倒是只能从回忆中去体验这种感觉了,人能做梦就挺不错.</font></p><p>        <font color="#F95738">不过好在大学还有2年,至少还能见到一段时间;但是遗憾的是也只有这两年了,就像刚开始说的那样能早认识一点就好了🥹.如果你已经看到这里了,那在耽误你一会,看一个视频,这也是我越来越喜欢你以后一直想说的一句话.但是未来也不确定,不想被你说画饼和油腻,但这并不妨碍这是我最想说的话</font><a href="https://v.douyin.com/iRqaVyyv/">如果无法播放点,就麻烦你点一下啦</a><br><video width="100%" height="100%" loop="" controls="" src="https://v.douyin.com/iRqaVyyv/"><br></video></p><br>        <font size="3" color="#F0803C">和你相关的朋友圈、我们之间的点点滴滴我将一直留存,最后再冒昧了一次了😂,虽然你说过你不喜欢不熟悉的人有你的照片,而今天之后我们也只是陌路之人,但这是我最重要的回忆,抱歉了欣欣我做不到抹去这一切.</font>]]></content>
-      
-      
       
     </entry>
     
@@ -859,25 +910,6 @@
         <tags>
             
             <tag> hightlight.js </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/11/19/hello-world/"/>
-      <url>/2023/11/19/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> init blog </tag>
             
         </tags>
       
